@@ -97,12 +97,14 @@ nav ul {
 	position: absolute;
 	top: 0;
 	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 
 .container {
 	width: 100%;
 	max-width: 870px;
-	margin: 200px auto;
+	margin: 200px auto 0;
 	color: rgba(236, 240, 241,1.0);
 }
 
