@@ -6,7 +6,8 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background-color: rgba(52, 152, 219,1);
+	/*background-color: rgba(52, 152, 219,1);*/
+	background-color: #5DADE2;
   -webkit-font-smoothing: antialiased;
   font-size: 1em
 }
@@ -96,15 +97,15 @@ nav ul {
 	background-color: rgba(255,255,255,.2);
 	position: absolute;
 	top: 0;
-	bottom: 0;
 	left: 0;
-	right: 0;
+	bottom: 0;
+	width: 100%;
 }
 
 .container {
 	width: 100%;
 	max-width: 870px;
-	margin: 200px auto;
+	margin: 115px auto 0;
 	color: rgba(236, 240, 241,1.0);
 }
 
@@ -123,9 +124,6 @@ nav ul {
   letter-spacing: 0.01em;
 }
 @media (max-width: 670px) {
-	.overlay {
-		
-	}
 	.container {
 		margin: 0 auto;
 	}
