@@ -6,7 +6,8 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background-color: rgba(52, 152, 219,1);
+	/*background-color: rgba(52, 152, 219,1);*/
+	background-color: #5DADE2;
   -webkit-font-smoothing: antialiased;
   font-size: 1em
 }
