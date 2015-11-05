@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
   var curPage = 1;
-  var numOfPages = $(".skw-page").length;
+  var numOfPages = $(".skew-page").length;
   var animTime = 1000;
   var scrolling = false;
-  var pgPrefix = ".skw-page-";
+  var pgPrefix = ".skew-page-";
 
   function pagination() {
     scrolling = true;
@@ -49,15 +49,4 @@ $(document).ready(function() {
       navigateDown();
     }
   });
-  $(window).scroll(function() {
-
-    if ($(this).scrollTop()>0)
-     {
-        $('.a').fadeOut();
-     }
-    else
-     {
-      $('.a').fadeIn();
-     }
- });
 });
